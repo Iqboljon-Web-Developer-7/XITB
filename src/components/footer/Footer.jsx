@@ -1,14 +1,21 @@
-import React from "react";
+import React, { useRef, useState } from "react";
 
 import social1 from "../../assets/footer/youtube.svg";
 import social2 from "../../assets/footer/facebook.svg";
 import social3 from "../../assets/footer/instagram.svg";
+
+import { FaAngleDown } from "react-icons/fa6";
+import { Accordion } from "@mui/material";
+
 const Footer = () => {
   return (
-    <footer className="footer py-20 mt-4">
+    <footer className="footer py-12 mt-4">
       <div className="footer__wrapper wrapper grid sm:grid-cols-2 md:grid-cols-[5fr_3fr_3fr_3fr] md:justify-items-center px-2 gap-10">
-        <div className="footer--item">
-          <h3 className="text-2xl font-bold">StayHealthy</h3>
+        <div className="footer--item overflow-hidden w-full">
+          <div className="flex justify-between items-center">
+            <h3 className="text-2xl font-bold">StayHealthy</h3>
+            {/* <FaAngleDown className="sm:hidden" /> */}
+          </div>
           <p className="leading-relaxed font-light mt-2 text-[.92rem]">
             Online Training, and Consultation About Diet and Exercise tailored
             based on user needs.
@@ -31,8 +38,11 @@ const Footer = () => {
             />
           </div>
         </div>
-        <div className="footer--item">
-          <h4 className="text-xl mb-4">Product</h4>
+        <div className="footer--item overflow-hidden w-full">
+          <div className="flex justify-between items-center mb-4 w-full">
+            <h4 className="text-xl">Product</h4>
+            {/* <FaAngleDown className="sm:hidden" /> */}
+          </div>
           <p className="leading-7 cursor-pointer hover:underline underline-offset-2 font-light">
             Gym Equipment
           </p>
@@ -43,8 +53,11 @@ const Footer = () => {
             Blog
           </p>
         </div>
-        <div className="footer--item">
-          <h4 className="text-xl mb-4">Explore Us</h4>
+        <div className="footer--item overflow-hidden w-full">
+          <div className="flex justify-between items-center mb-4 w-full">
+            <h4 className="text-xl">Explore Us</h4>
+            {/* <FaAngleDown className="sm:hidden" /> */}
+          </div>
           <p className="leading-7 cursor-pointer hover:underline underline-offset-2 font-light">
             FAQ
           </p>
@@ -55,8 +68,12 @@ const Footer = () => {
             Term and Conditions
           </p>
         </div>
-        <div className="footer--item">
-          <h4 className="text-xl mb-4">Contact</h4>
+        <div className="footer--item overflow-hidden w-full">
+          <div className="flex justify-between items-center mb-4">
+            <h4 className="text-xl">Contact</h4>
+            {/* <FaAngleDown className="sm:hidden" /> */}
+          </div>
+
           <p className="leading-7 cursor-pointer hover:underline underline-offset-2 font-light">
             hi@stayhealthy.com
           </p>

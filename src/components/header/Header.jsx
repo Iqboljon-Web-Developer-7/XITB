@@ -26,9 +26,9 @@ const Header = ({ type, setType }) => {
     setType(JSON.parse(localStorage.getItem("userData"))?.type || "");
   }, [type]);
   return (
-    <header className={`bg-[#0A3E51] ${isFixed && "mt-[5.5rem]"}`}>
+    <header className={`bg-[#0A3E51] ${isFixed && "mt-[5rem]"}`}>
       <div
-        className={`header-wrapper max-w-[100rem] mx-auto py-2 xs:py-4 px-1 xs:px-2 flex justify-between items-center ${
+        className={`header-wrapper max-w-[100rem] mx-auto py-4 px-1 xs:px-2 flex justify-between items-center ${
           isFixed
             ? "fixed animate-fade-in bg-[#0A3E51bb]"
             : "relative animate-fade-out z-20"

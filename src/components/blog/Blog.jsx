@@ -35,7 +35,7 @@ const Blog = () => {
               <h4 className="text-xl xs:text-2xl m-0 p-0 font-bold ">
                 How to plant spinach correctly in winter
               </h4>
-              <p className=" text-[#eaf2d7] xs:text-[#3fad59] bg-[#58480819] xs:bg-transparent rounded-md p-2 backdrop-blur-sm md:backdrop-blur-none drop-shadow-sm md:text-[#70737C] text-sm xs:text-[1rem]">
+              <p className=" text-[#eaf2d7] xs:text-[#3fad59] bg-[#58480819] xs:bg-transparent rounded-md p-2 xs:p-0 backdrop-blur-sm md:backdrop-blur-none drop-shadow-sm md:text-[#70737C] text-sm xs:text-[1rem]">
                 In most areas, successive sowing can be done from early spring
                 until early winter, but more often during hotter months...
               </p>
@@ -48,7 +48,7 @@ const Blog = () => {
             className="blog-item rounded-xl col-span-2 md:col-span-1 flex justify-between bg-[#EFF2F8] h-[18.75rem] bg-no-repeat bg-right-bottom"
             style={{ backgroundImage: `url(${img2})` }}
           >
-            <div className="blog-item--info w-full md:w-[53%] p-4 xs:p-8 flex flex-col gap-3">
+            <div className="blog-item--info p-4 xs:p-8 flex flex-col gap-3">
               <p className="time flex items-center gap-2 text-sm xs:text-[1rem]">
                 <IoTimeSharp />
                 12.09.2021
@@ -56,7 +56,7 @@ const Blog = () => {
               <h4 className="text-xl xs:text-2xl m-0 p-0 font-bold ">
                 How to plant spinach correctly in winter
               </h4>
-              <p className=" text-[#eaf2d7] xs:text-[#3fad59] bg-[#58480819] xs:bg-transparent rounded-md p-2 backdrop-blur-sm md:backdrop-blur-none drop-shadow-sm md:text-[#70737C] text-sm xs:text-[1rem]">
+              <p className=" text-[#3fad59] ounded-md p-2 backdrop-blur-sm md:backdrop-blur-none drop-shadow-sm block md:hidden text-sm xs:text-[1rem]">
                 In most areas, successive sowing can be done from early spring
                 until early winter, but more often during hotter months...
               </p>
@@ -69,7 +69,7 @@ const Blog = () => {
             className="blog-item rounded-xl col-span-2 md:col-span-1 flex justify-between bg-[#EFF2F8] h-[18.75rem] bg-no-repeat bg-right-bottom"
             style={{ backgroundImage: `url(${img2})` }}
           >
-            <div className="blog-item--info w-full md:w-[53%] p-4 xs:p-8 flex flex-col gap-3">
+            <div className="blog-item--info p-4 xs:p-8 flex flex-col gap-3">
               <p className="time flex items-center gap-2 text-sm xs:text-[1rem]">
                 <IoTimeSharp />
                 12.09.2021
@@ -77,7 +77,7 @@ const Blog = () => {
               <h4 className="text-xl xs:text-2xl m-0 p-0 font-bold ">
                 How to plant spinach correctly in winter
               </h4>
-              <p className=" text-[#eaf2d7] xs:text-[#3fad59] bg-[#58480819] xs:bg-transparent rounded-md p-2 backdrop-blur-sm md:backdrop-blur-none drop-shadow-sm md:text-[#70737C] text-sm xs:text-[1rem]">
+              <p className=" text-[#3fad59] ounded-md p-2 backdrop-blur-sm md:backdrop-blur-none drop-shadow-sm block md:hidden text-sm xs:text-[1rem]">
                 In most areas, successive sowing can be done from early spring
                 until early winter, but more often during hotter months...
               </p>
@@ -91,7 +91,7 @@ const Blog = () => {
           className="blog-item rounded-xl flex flex-col bg-[#EFF2F8] bg-no-repeat bg-right-top lg:bg-right-bottom"
           style={{ backgroundImage: `url(${img3})` }}
         >
-          <div className="blog-item--info w-full md:w-[53%] p-4 xs:p-8 flex flex-col gap-3">
+          <div className="blog-item--info p-4 xs:p-8 flex flex-col gap-3">
             <p className="time flex items-center gap-2 text-sm xs:text-[1rem]">
               <IoTimeSharp />
               12.09.2021
@@ -99,7 +99,7 @@ const Blog = () => {
             <h4 className="text-xl xs:text-2xl m-0 p-0 font-bold ">
               How to plant spinach correctly in winter
             </h4>
-            <p className=" text-[#eaf2d7] xs:text-[#3fad59] bg-[#58480819] xs:bg-transparent rounded-md p-2 backdrop-blur-sm md:backdrop-blur-none drop-shadow-sm md:text-[#70737C] text-sm xs:text-[1rem]">
+            <p className=" text-[#3fad59] ounded-md p-2 backdrop-blur-sm md:backdrop-blur-none drop-shadow-sm block md:hidden text-sm xs:text-[1rem]">
               In most areas, successive sowing can be done from early spring
               until early winter, but more often during hotter months...
             </p>

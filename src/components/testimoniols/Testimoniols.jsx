@@ -2,14 +2,14 @@ import React from "react";
 
 const Testimoniols = () => {
   return (
-    <div className="pl-10 pb-10 font-[sans-serif] mt-32">
+    <section className="pb-10 font-[sans-serif] mt-20 xs:mt-32">
       <div className="max-w-6xl mx-auto">
-        <div className="grid lg:grid-cols-3 gap-6 max-lg:max-w-2xl">
+        <div className="grid lg:grid-cols-3 px-4 text-center xs:text-start gap-6 max-lg:max-w-2xl">
           <div className="col-span-2">
-            <h2 className="text-gray-800 text-3xl font-extrabold">
+            <h2 className="text-gray-800 text-2xl xs:text-3xl font-extrabold">
               What our happy client say
             </h2>
-            <p className="text-sm text-gray-800 mt-6 leading-relaxed">
+            <p className="text-sm text-gray-800 mt-2 xs:mt-6 xs:leading-relaxed">
               Veniam proident aute magna anim excepteur et ex consectetur velit
               ullamco veniam minim aute sit. Elit occaecat officia et laboris
               Lorem minim. Officia do aliqua adipisicing ullamco in.
@@ -17,7 +17,7 @@ const Testimoniols = () => {
           </div>
         </div>
 
-        <div className="grid justify-items-center sm:grid-cols-2 lg:grid-cols-3 lg:gap-12 gap-6 mt-16">
+        <div className="grid pl-10 justify-items-center sm:grid-cols-2 lg:grid-cols-3 lg:gap-12 gap-6 mt-16">
           <div className="max-w-[360px] h-auto py-5 pl-14 pr-4 bg-white border-2 rounded-3xl relative">
             <img
               src="https://readymadeui.com/team-2.webp"
@@ -210,7 +210,7 @@ const Testimoniols = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
