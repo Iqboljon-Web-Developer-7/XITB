@@ -1,0 +1,83 @@
+import React from "react";
+
+import heroImg from "../../assets/Header-Hero/image.png";
+
+import testimoniolImg from "../../assets/Header-Hero/testimonio.png";
+
+const Hero = () => {
+  return (
+    <section className="hero bg-[#0A3E51] relative pb-60">
+      <div className="wrapper grid lg:grid-cols-2 place-items-center py-6 px-2">
+        <div className="hero__info flex flex-col items-center text-center lg:items-start lg:text-start gap-5 lg:gap-7">
+          <p className="hero__info--title w-fit p-3 px-5 text-slate-100 text-sm bg-[#094556] text-nowrap rounded-full animate-fade-in-top-7">
+            Xalqaro Investorlarni Tadbirkorlar bilan Bog'lash
+          </p>
+          <h1 className="text-[2.6rem] lg:text-[3.8rem] font-bold leading-[1.04] text-slate-200 animate-fade-in-top-8">
+            Building Digital Products, Brands & Experience.
+          </h1>
+          <p className="text-[#849499] text-sm animate-fade-in-top-8">
+            A Product Design and Visual Designer in SF I”m Specialize in UI/UX,
+            Responsive web design, and visual Development.{" "}
+          </p>
+          <div className="btns flex gap-7 text-sm animate-fade-in-top-9">
+            <button className="bg-[#FFA639] p-3 px-5 rounded-full hover:brightness-110 duration-150 cursor-pointer">
+              Hire Me
+            </button>
+            <button className="hover:underline underline-offset-4 text-slate-200">
+              My Work
+            </button>
+          </div>
+        </div>
+        <div className="hero__img relative max-w-[18rem]] animate-fade-in-top-10">
+          <img src={heroImg} alt="img of businessman" />
+          <div className="absolute max-w-[19rem] border-4 py-4 px-6 border-slate-300 rounded-2xl grid gap-5 top-[60%] right-0 lg:-right-2 bg-[#11111111] backdrop-blur-sm">
+            <p className="text-sm text-white drop-shadow-sm">
+              ‘’Musa has benn an outstanding contributor to our team’s UI
+              Designer needs highly recommened’’
+            </p>
+            <div className="profile flex gap-3 items-center">
+              <img
+                src={testimoniolImg}
+                className="max-w-11 max-h-11 shrink-0"
+                alt="img of smiling person :)"
+              />
+              <div className="profile__info">
+                <p className="font-normal text-white text-[1rem]">
+                  Jason Holder
+                </p>
+                <p className="font-light text-[#A1B5BB] text-[.75rem]">
+                  UX/UI Designer
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="statistics absolute w-11/12 mx-2 sm:w-auto py-16 px-[12%] left-[50%] translate-x-[-50%] flex justify-center items-center flex-col gap-7 lg:gap-10 bottom-[-0%] translate-y-[50%] bg-white rounded-[2.6rem] shadow-md">
+        <h4 className="text-start w-full text-sm md:text-xl lg:text-2xl text-[#265A6A]">
+          STATISTIC
+        </h4>
+        <div className="statistics__container grid grid-cols-2 sm:flex text-center gap-x-16 gap-y-8 sm:gap-12 text-[.8rem] lg:gap-20 lg:text-[1rem]">
+          <div className="statistic">
+            <h2 className="text-3xl lg:text-5xl">300+</h2>
+            <p className="text-[#08546C] mt-2 text-nowrap">Project Delivery</p>
+          </div>
+          <div className="statistic">
+            <h2 className="text-3xl lg:text-5xl">8</h2>
+            <p className="text-[#08546C] mt-2 text-nowrap">Years Experience</p>
+          </div>
+          <div className="statistic">
+            <h2 className="text-3xl lg:text-5xl">16</h2>
+            <p className="text-[#08546C] mt-2 text-nowrap">Awards</p>
+          </div>
+          <div className="statistic">
+            <h2 className="text-3xl lg:text-5xl">5k+</h2>
+            <p className="text-[#08546C] mt-2 text-nowrap">Happy Clients</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Hero;
