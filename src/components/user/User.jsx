@@ -8,7 +8,7 @@ const User = ({ type, setType }) => {
   return (
     <div className="relative">
       <img
-        src="https://picsum.photos/42"
+        src="https://picsum.photos/40"
         alt="user random img"
         className="rounded-full cursor-pointer"
         onClick={() => setIsShow((prev) => !prev)}

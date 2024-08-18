@@ -9,14 +9,14 @@ import img4 from "../../assets/services/4.svg";
 
 const Services = () => {
   return (
-    <section className="services wrapper mt-[16rem] text-center pb-20">
+    <section className="services wrapper mt-[12rem] xs:mt-[16rem] text-center pb-20">
       <div className="services__info">
         <p className="font-schoolBell text-[#265A6A] text-2xl">Services</p>
-        <h2 className="mt-[1.4rem] text-[#08546C] text-3xl md:text-[2.8125rem] max-w-[30rem] mx-auto leading-[1.1]">
+        <h2 className="mt-[1.4rem] text-[#08546C] text-2xl xs:text-3xl md:text-[2.8125rem] max-w-[30rem] mx-auto leading-[1.1]">
           Building Digital Product With Better Experience
         </h2>
       </div>
-      <div className="services__container mt-[4.375rem] p-2 grid xs:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-8">
+      <div className="services__container mt-[3rem] xs:mt-[4.375rem] p-2 grid xs:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-8">
         <div className="service cursor-pointer bg-white group py-8 px-6 hover:bg-[#08546C] duration-200 shadow-transparent">
           <div className="bg-[#F5FBFC] max-w-8 max-h-8 rounded-full mb-4 p-[.34rem] overflow-visible group-hover:bg-[#FFA800]">
             <img

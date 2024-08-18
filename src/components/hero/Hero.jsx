@@ -9,13 +9,13 @@ const Hero = () => {
     <section className="hero bg-[#0A3E51] relative pb-60">
       <div className="wrapper grid lg:grid-cols-2 place-items-center py-6 px-2">
         <div className="hero__info flex flex-col items-center text-center lg:items-start lg:text-start gap-5 lg:gap-7">
-          <p className="hero__info--title w-fit p-3 px-5 text-slate-100 text-sm bg-[#094556] text-nowrap rounded-full animate-fade-in-top-7">
+          <p className="hero__info--title w-fit p-3 px-5 text-slate-100 text-sm bg-[#094556] sm:text-nowrap rounded-full animate-fade-in-top-7">
             Xalqaro Investorlarni Tadbirkorlar bilan Bog'lash
           </p>
-          <h1 className="text-[2.6rem] lg:text-[3.8rem] font-bold leading-[1.04] text-slate-200 animate-fade-in-top-8">
+          <h1 className=" text-[1.8rem] sm:text-[2.6rem] lg:text-[3.8rem] font-bold leading-[1.04] text-slate-200 animate-fade-in-top-8">
             Building Digital Products, Brands & Experience.
           </h1>
-          <p className="text-[#849499] text-sm animate-fade-in-top-8">
+          <p className="text-[#849499] text-[.8rem] sm:text-sm animate-fade-in-top-8">
             A Product Design and Visual Designer in SF I”m Specialize in UI/UX,
             Responsive web design, and visual Development.{" "}
           </p>
@@ -53,11 +53,11 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="statistics absolute w-11/12 mx-2 sm:w-auto py-16 px-[12%] left-[50%] translate-x-[-50%] flex justify-center items-center flex-col gap-7 lg:gap-10 bottom-[-0%] translate-y-[50%] bg-white rounded-[2.6rem] shadow-md">
-        <h4 className="text-start w-full text-sm md:text-xl lg:text-2xl text-[#265A6A]">
+      <div className="statistics absolute w-[92%] xs:w-11/12 sm:w-auto py-8 xs:py-16 px-[12%] left-[50%] translate-x-[-50%] flex justify-center items-center flex-col gap-7 lg:gap-10 bottom-[-0%] translate-y-[50%] bg-[#f1faee] rounded-2xl xs:rounded-[2.4rem] shadow-md">
+        <h4 className="text-center font-semibold xs:font-normal xs:text-start w-full text-sm md:text-xl lg:text-2xl text-[#265A6A]">
           STATISTIC
         </h4>
-        <div className="statistics__container grid grid-cols-2 sm:flex text-center gap-x-16 gap-y-8 sm:gap-12 text-[.8rem] lg:gap-20 lg:text-[1rem]">
+        <div className="statistics__container grid grid-cols-2 sm:flex text-center gap-x-10 xs:gap-x-16 gap-y-6 xs:gap-y-8 sm:gap-12 text-[.8rem] lg:gap-20 lg:text-[1rem]">
           <div className="statistic">
             <h2 className="text-3xl lg:text-5xl">300+</h2>
             <p className="text-[#08546C] mt-2 text-nowrap">Project Delivery</p>

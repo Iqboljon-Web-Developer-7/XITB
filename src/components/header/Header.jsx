@@ -28,10 +28,10 @@ const Header = ({ type, setType }) => {
   return (
     <header className={`bg-[#0A3E51] ${isFixed && "mt-[5.5rem]"}`}>
       <div
-        className={`header-wrapper max-w-[100rem] mx-auto pb-4 px-2 flex justify-between items-center ${
+        className={`header-wrapper max-w-[100rem] mx-auto py-2 xs:py-4 px-1 xs:px-2 flex justify-between items-center ${
           isFixed
-            ? "fixed pt-4 animate-fade-in bg-[#0A3E51bb]"
-            : "relative pt-6 animate-fade-out z-20"
+            ? "fixed animate-fade-in bg-[#0A3E51bb]"
+            : "relative animate-fade-out z-20"
         } inset-[0_0_auto_0] backdrop-blur-sm z-20`}
       >
         <div className="header__logo">
@@ -39,7 +39,7 @@ const Header = ({ type, setType }) => {
             <img
               src={logo}
               alt="website logo"
-              className="max-w-10 animate-fade-in-top-1"
+              className="max-w-8 xs:max-w-10 animate-fade-in-top-1"
             />
           </NavLink>
         </div>
@@ -57,12 +57,12 @@ const Header = ({ type, setType }) => {
             Register
           </NavLink>
         </nav>
-        <div className="header__btns z-20 relative text-[1rem] text-slate-100 flex items-center justify-center gap-4">
-          <button className=" bg-[#125E76] py-3 px-7 rounded-full hover:contrast-125 hover:shadow-md duration-150 animate-fade-in-top-5">
+        <div className="header__btns z-20 relative text-[.8rem] xl:text-[1rem] text-slate-100 flex items-center justify-center gap-4">
+          <button className=" bg-[#125E76] py-2 px-5 xs:py-3 xs:px-7 rounded-full hover:contrast-125 hover:shadow-md duration-150 animate-fade-in-top-5">
             Contact
           </button>
           <RiMenu5Line
-            className="block lg:hidden text-4xl cursor-pointer animate-fade-in-top-6"
+            className="block lg:hidden text-2xl xl:text-4xl cursor-pointer animate-fade-in-top-6"
             onClick={() => setOpen((prev) => !prev)}
           />
           {type && <User type={type} setType={setType} />}
